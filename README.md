@@ -36,7 +36,7 @@ Here is the directory overview:
 .
 ├── code_snippets/       # Standalone example code
 ├── configs/             # Pipeline configuration files
-├── llm_engineering/     # Core project package
+├── src/     # Core project package
 │   ├── application/    
 │   ├── domain/         
 │   ├── infrastructure/ 
