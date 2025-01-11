@@ -1,0 +1,15 @@
+settings:
+  docker:
+    parent_image: 
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+    
+parameters:
+  user_full_name: Abhinav Kumar # [First Name(s)] [Last Name]
+  links:
+    # Personal Blog
+    - https://medium.com/@abhinav.mg.k/using-oops-and-software-design-patterns-in-machine-learning-part-1-75ef5b3c28f6
+    - https://medium.com/@abhinav.mg.k/creating-a-preference-dataset-with-llama-3-1-70b-and-ollama-d16f37019eb5
+    - https://medium.com/@abhinav.mg.k/coding-a-large-language-model-from-scratch-part-1-216c859346ea
+    

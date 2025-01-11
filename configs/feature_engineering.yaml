@@ -1,0 +1,11 @@
+settings:
+  docker:
+    parent_image: 
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+    
+parameters:
+  author_full_names:
+    - Abhinav Kumar
+  

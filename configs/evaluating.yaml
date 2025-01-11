@@ -1,0 +1,9 @@
+settings:
+  docker:
+    parent_image: 
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+
+parameters:
+  is_dummy: true # Change this to 'false' to run the evaluation on the full dataset.
